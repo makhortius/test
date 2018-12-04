@@ -1,0 +1,211 @@
+.fwt{
+    width: 100%;}
+.clear{
+    clear: both;
+}
+.left {
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+.mesage_error{
+    color: #cc0000;
+}
+
+.success_message{
+    color: green;
+}
+
+.block_for_messages{
+    text-align: center;
+}
+.team-item img{
+    margin-bottom: 15px;
+    border: 7px solid #fff;
+    border-radius: 50%;
+}
+.team-item{
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+}
+.text1{
+    margin-left: 20px; font-size: 20px;
+    
+}
+.text2{width: 60%;
+float: none; margin:-62px 6px -330px -332px;; font-size: 18px;
+}
+.photo_main{
+        display: inline-block;
+    height: 300px;
+
+}
+.img{
+    width: 300px;
+    border: 120%;
+border-radius: 50%; }
+.btn {
+    color: #000000;
+    padding: 10px 20px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin: 21px;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#6e9e9d 50%,#000000);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 400 18px tahoma;
+    border: 1px solid #ffffff;
+}
+.btn:hover {
+background-position: 0 0;
+color:#fff;
+}
+.btna{
+    color: #000000;
+    padding: 10px 20px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin: 21px;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#6e9e9d 50%,#000000);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 400 18px tahoma;
+    border: 1px solid #ffffff;
+}
+.btna:hover {
+background-position: 0 0;
+color:#fff;
+}
+.btnr{
+    color: #000000;
+    padding: 10px 20px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin: 21px;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#6e9e9d 50%,#000000);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 400 18px tahoma;
+    border: 1px solid #ffffff;
+}
+.btnr:hover {
+background-position: 0 0;
+color:#fff;
+}
+
+}
+.img:hover{
+    width: 315px;
+}
+.social a.ic-fb {
+    background-position: -40px 0; 
+}
+.social a.ic-fb:hover {
+    background-position: -40px -40px;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+.social a.ic-fb.black{
+    background-position: -40px -40px;}
+.social{
+    margin-top: 10px;
+}
+.social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #222;
+    border-radius: 50%;
+    margin: 0 3px;
+    background: url(social-sprite.png) no-repeat;
+}
+.social a.black{
+    background: #222 url(social-sprite.png) no-repeat;
+}
+.cat{
+    font: 14px/14px Arial, sans-serif;
+    color: #777;
+}
+#header, #footer{
+    border: 2px solid #000;
+}
+
+#header{
+    padding-left: 10px;
+}
+
+#footer{
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+#header h2, #footer h2{
+    text-align: center;
+    margin: 0;
+}
+
+#auth_block{
+    width: 290px;
+    float: right;
+    margin: -52px 78px -143px 0px;
+}
+
+#auth_block a{
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+}
+
+#auth_block a:hover{
+    text-decoration: underline;
+}
+
+#link_register{
+    float: left;
+}
+
+#link_auth, #link_logout{
+    float: right;
+}
+
+#link_register a{
+    background: #D2691E;
+}
+
+#link_auth a, #link_logout a{
+    background: #7FFFD4;
+    text-align: center;
+}
+
+/* Блок с формой регистрации */
+#form_register, #form_auth{
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+#authorized h2{
+    text-align: center;
+}
